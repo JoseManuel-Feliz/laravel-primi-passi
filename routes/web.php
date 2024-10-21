@@ -16,3 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/html', function () {
+    return view('html');
+});
+
+Route::get('/css', function () {
+    return view('css');
+});
+
+Route::get('/js', function () {
+    return view('js');
+});
+
+Route::get('/vue', function () {
+    return view('vue');
+});
+
+Route::get('/php', function () {
+    return view('php');
+});
+
+Route::get('/laravel', function () {
+    return view('laravel');
+});
